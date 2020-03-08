@@ -65,13 +65,13 @@
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-     <Compile Include="Assets\Scripts\ActionBehaviour.cs" />
      <Compile Include="Assets\Scripts\BallAnimation.cs" />
-     <Compile Include="Assets\Scripts\GameBehaviour.cs" />
      <Compile Include="Assets\Scripts\GameOverWindow.cs" />
      <Compile Include="Assets\Scripts\MissClickBG.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\TimerScript.cs" />
+     <Compile Include="Assets\Scripts\UI.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>H:/16. UNITY PROJECTS/ClickerForAim/AimClicker/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

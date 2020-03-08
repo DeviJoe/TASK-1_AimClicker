@@ -21,6 +21,6 @@ public class GameOverWindow : MonoBehaviour
 
     public void OnRestartButtonClick()
     {
-        SceneManager.LoadScene("Main", LoadSceneMode.Single);
+        SceneManager.LoadScene("Game", LoadSceneMode.Single);
     }
 }

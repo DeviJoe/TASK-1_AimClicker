@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BallAnimation : MonoBehaviour
 {
@@ -12,6 +10,8 @@ public class BallAnimation : MonoBehaviour
     private float lifeTime;
     [SerializeField]
     private float size;
+
+    [SerializeField] private Text scoreText;
 
     //Время создания объекта
     private float _startTime;
@@ -30,7 +30,7 @@ public class BallAnimation : MonoBehaviour
         _startTime = Time.time;
         DOTween.SetTweensCapacity(1300, 50);
     }
-
+    
     private void Update()
     {
         try
@@ -49,7 +49,7 @@ public class BallAnimation : MonoBehaviour
             {
                 Destroy(gameObject);
                 Score.ConcatScore(-5);
-                Debug.Log(Score.GetScore());
+                
             }
         }
         catch (Exception e)
@@ -63,7 +63,6 @@ public class BallAnimation : MonoBehaviour
     {
         Destroy(gameObject);
         Score.ConcatScore(10);
-        Debug.Log(Score.GetScore());
     }
 
     
