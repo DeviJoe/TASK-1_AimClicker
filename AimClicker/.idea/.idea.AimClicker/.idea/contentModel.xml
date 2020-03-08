@@ -22,7 +22,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActionBehaviour.cs" t="Include" />
           <e p="BallAnimation.cs" t="Include" />
+          <e p="GameBehaviour.cs" t="Include" />
+          <e p="GameOverWindow.cs" t="Include" />
           <e p="MissClickBG.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />

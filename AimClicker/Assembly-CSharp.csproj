@@ -65,7 +65,10 @@
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Scripts\ActionBehaviour.cs" />
      <Compile Include="Assets\Scripts\BallAnimation.cs" />
+     <Compile Include="Assets\Scripts\GameBehaviour.cs" />
+     <Compile Include="Assets\Scripts\GameOverWindow.cs" />
      <Compile Include="Assets\Scripts\MissClickBG.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
